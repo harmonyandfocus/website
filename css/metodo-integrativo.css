@@ -1,0 +1,719 @@
+.wrap-method {
+  background: #fff;
+}
+
+a,
+a:hover,
+a:focus {
+  transition: all 0.4s !important;
+}
+
+.no-gutters {
+  padding: 0 !important;
+}
+
+.subtitulo-raro {
+  /* Subtitle Desktop / 1 (20) */
+
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 30px;
+
+  color: #414345;
+}
+
+.section-scroll--spacefix {
+  padding-bottom: 0 !important;
+  margin-bottom: -40px !important;
+}
+
+@media (min-width: 992px) {
+  .flex-center-rows {
+    display: flex;
+    align-items: center;
+  }
+  .segundo-row {
+    margin-top: -50px;
+  }
+  .flex-center-rows--top {
+    display: flex;
+    align-items: flex-start;
+  }
+  .flex-center-rows--bottom {
+    display: flex;
+    align-items: flex-end;
+  }
+  .width-80 {
+    width: 80%;
+  }
+
+  .width-70 {
+    width: 70%;
+  }
+
+  .background-recorte-abajo {
+    background: #fcf9f6;
+    position: relative;
+  }
+
+  .background-recorte-abajo::before {
+    background: #fff;
+    content: "";
+    height: 32px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+  }
+
+  .background-recorte-arriba {
+    background: #fcf9f6;
+    position: relative;
+  }
+
+  .background-recorte-arriba::before {
+    background: #fff;
+    content: "";
+    height: 32px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+
+  .background-recorte-arriba .zona-texto {
+    padding-top: 45px;
+  }
+
+  .background-recorte-arriba-y-abajo {
+    background: #fcf9f6;
+    position: relative;
+    z-index: 0;
+  }
+
+  .background-recorte-arriba-y-abajo img {
+    z-index: 3;
+  }
+
+  .background-recorte-arriba-y-abajo::after {
+    background: #fff;
+    content: "";
+    height: 32px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  .background-recorte-arriba-y-abajo::before {
+    background: #fff;
+    content: "";
+    height: 32px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+
+  .background-recorte-arriba--full {
+    padding-top: 60px;
+  }
+
+  .background-recorte-arriba--full::before {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .section-scroll--spacefix {
+    padding-bottom: 30px !important;
+    margin-bottom: 30px !important;
+  }
+
+  .flex-center-rows-mobile {
+    display: flex;
+    align-items: center;
+  }
+
+  .background-recorte-arriba {
+    background: #fcf9f6;
+    position: relative;
+  }
+  /* Evitamos que use background anterior si en el interior hay tab */
+  .tab-inside {
+    background: #fff;
+  }
+
+  .background-recorte-arriba::before {
+    background: #fff;
+    content: "";
+    height: 32px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+
+  .background-recorte-arriba-y-abajo {
+    background: #fcf9f6;
+    position: relative;
+    z-index: 0;
+  }
+
+  .background-recorte-arriba-y-abajo img {
+    z-index: 3;
+  }
+
+  /*.background-recorte-arriba-y-abajo::after {
+    background: #fff;
+    content: "";
+    height: 32px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+  } */
+
+  .background-recorte-arriba-y-abajo::before {
+    background: #fff;
+    content: "";
+    height: 32px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+  .background-recorte-abajo {
+    background: #fcf9f6;
+
+    position: relative;
+  }
+
+  .background-recorte-abajo::before {
+    background: #fff;
+    content: "";
+    height: 32px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+  }
+}
+
+/* MODULO NAV TAB  /modulos/nav-tab.php  */
+/* *********************************************************************************************************************************************** */
+/* *********************************************************************************************************************************************** */
+/* *********************************************************************************************************************************************** */
+/* *********************************************************************************************************************************************** */
+
+.modulo-nav-tab {
+  background: none !important;
+  width: 100%;
+}
+
+.modulo-nav-tab .nav-tabs {
+  border: 0 !important;
+  background: none !important;
+  margin-bottom: 25px;
+}
+.modulo-nav-tab .nav > li {
+  margin-right: 20px !important;
+}
+.modulo-nav-tab .nav > li > a {
+  padding: 0 0 5px !important;
+}
+
+.modulo-nav-tab .nav-tabs ul li a {
+  text-decoration: none;
+  color: #999999;
+  display: block;
+}
+
+.modulo-nav-tab .nav-tabs > li.active > a {
+  font-weight: 600;
+}
+
+.modulo-nav-tab .nav-tabs > li > a,
+.modulo-nav-tab .nav-tabs > li.active > a,
+.modulo-nav-tab .nav-tabs > li.active > a:focus,
+.modulo-nav-tab .nav-tabs > li.active > a:hover {
+  border: 0 !important;
+  background: none !important;
+}
+
+.modulo-nav-tab ul li:hover:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  border-bottom: 2px solid #f0e5dc;
+}
+
+.modulo-nav-tab ul li.active:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  border-bottom: 2px solid #e3d8d0;
+}
+@media (min-width: 992px) {
+  .nav-tab-top-margin {
+    margin-top: 60px;
+  }
+}
+/* FIN MODULO NAV TAB  /modulos/nav-tab.php  */
+
+/*  MODULO VIDEO  /modulos/video.php  */
+/* *********************************************************************************************************************************************** */
+/* *********************************************************************************************************************************************** */
+/* *********************************************************************************************************************************************** */
+/* *********************************************************************************************************************************************** */
+
+#section-video {
+  width: 100%;
+  z-index: 0;
+}
+
+#section-video .video-cover {
+  position: relative;
+}
+
+#section-video .video-cover .bg {
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  visibility: visible;
+  background-position: center;
+  background-size: cover;
+  transition: all 400ms;
+}
+
+#section-video.playing .video-cover .bg {
+  opacity: 0;
+  visibility: hidden;
+}
+
+#section-video .video-cover .bg .text-container {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+#section-video .video-cover .bg .text-container .play-portada {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  line-height: 80px;
+  text-align: center;
+  padding-left: 2px;
+  font-size: 28px;
+  cursor: pointer;
+  transition: all 200ms;
+  transform: scale(1);
+}
+
+#section-video .video-cover .bg .text-container .play-portada.fa {
+  vertical-align: middle;
+}
+
+#section-video .video-cover .bg .text-container .play-portada:hover {
+  transform: scale(0.9);
+}
+
+/* FIN  MODULO VIDEO  /modulos/video.php  */
+
+/*    ACORDEON VERTICAL   /modulos/acordeon.php  */
+/* *********************************************************************************************************************************************** */
+/* *********************************************************************************************************************************************** */
+/* *********************************************************************************************************************************************** */
+/* *********************************************************************************************************************************************** */
+.panel-modulo-acordeon.panel {
+  background: none !important;
+}
+
+.panel-modulo-acordeon .collapsible-link {
+  display: block;
+  color: #555;
+  position: relative;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 500;
+  padding-right: 24px;
+}
+
+.panel-modulo-acordeon .collapsible-link::before {
+  content: "";
+  width: 14px;
+  height: 2px;
+  border-radius: 1px;
+  background: #555;
+  position: absolute;
+  top: 10px;
+  right: 4px;
+  display: block;
+  transition: all 0.3s;
+}
+
+.panel-modulo-acordeon .collapsible-link::after {
+  content: "";
+  width: 2px;
+  border-radius: 1px;
+  height: 14px;
+  background: #555;
+  position: absolute;
+  top: 4px;
+  right: 10px;
+  display: block;
+  transition: all 0.3s;
+}
+
+.panel-modulo-acordeon .collapsible-link[aria-expanded="true"] {
+  font-size: 24px;
+}
+
+.panel-modulo-acordeon .collapsible-link[aria-expanded="true"]::after {
+  transform: rotate(90deg) translateX(-1px);
+  visibility: hidden;
+}
+
+.panel-modulo-acordeon .collapsible-link[aria-expanded="true"]::before {
+  transform: rotate(180deg);
+}
+
+.panel-modulo-acordeon .panel-heading {
+  border: none !important;
+}
+
+.panel.panel-modulo-acordeon {
+  border: none !important;
+}
+
+.panel-group
+  .panel-modulo-acordeon
+  .panel-heading
+  + .panel-collapse
+  > .list-group,
+.panel-group .panel-heading + .panel-collapse > .panel-body {
+  border-top: none;
+}
+
+.panel-modulo-acordeon .panel-heading,
+.panel-modulo-acordeon .panel-body {
+  padding: 20px 0;
+}
+
+/* FIN ACORDEON VERTICAL   /modulos/acordeon.php  */
+
+/*    CSS PARA MITAD FLUIDA (INICIO) Y MITAD CONTAINER (FINAL) VER SALUD EMOCIONAL EN "SALUD COGNITIVA Y EMOCIONAL */
+/* *********************************************************************************************************************************************** */
+/* *********************************************************************************************************************************************** */
+/* *********************************************************************************************************************************************** */
+/* *********************************************************************************************************************************************** */
+
+.init-fluid {
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.init-fluid::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 15px;
+  height: 100%;
+  background: #fcf9f6;
+}
+
+.init-fluid--white::before {
+  display: none;
+}
+
+.display-mobile {
+  display: none;
+}
+
+@media (max-width: 993px) {
+  .display-desktop--big {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .display-desktop {
+    display: none;
+  }
+
+  .display-mobile {
+    display: block;
+  }
+
+  .init-fluid {
+    padding: 0 15px;
+    max-width: 540px;
+    margin: 0 auto;
+  }
+
+  .init-fluid--bg---mobile {
+    background: #fcf9f6;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .init-fluid::before {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .init-fluid::before {
+    width: calc(468px + 50%);
+  }
+
+  .init-fluid .columna-derecha {
+    max-width: 468px;
+  }
+
+  .init-fluid .columna-izquierda img {
+    text-align: right;
+  }
+
+  .init-fluid .content-owner {
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .init-fluid::before {
+    width: calc(570px + 50%);
+  }
+
+  .init-fluid .columna-derecha {
+    max-width: 570px;
+  }
+}
+
+/*    CSS PARA MITAD CONTAINER (INICIO) Y MITAD FLUID (FINAL) VER SALUD HEALTHY LIVING ACADEMY */
+/* *********************************************************************************************************************************************** */
+/* *********************************************************************************************************************************************** */
+/* *********************************************************************************************************************************************** */
+/* *********************************************************************************************************************************************** */
+
+.final-fluid {
+  position: relative;
+}
+
+.final-fluid::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+
+.final-fluid .content-box {
+  position: relative;
+  width: 100%;
+  margin: 15px 0;
+}
+
+.img-box.right,
+.img-box.left {
+  position: relative;
+  width: calc(50vw);
+}
+
+@media (min-width: 768px) {
+  .final-fluid::before,
+  .init-fluid::before {
+    width: 100%;
+  }
+
+  .final-fluid,
+  .init-fluid {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .final-fluid .img-box.right,
+  .init-fluid .img-box.left {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .final-fluid::before,
+  .init-fluid::before {
+    width: calc(570px + 50%);
+  }
+
+  .final-fluid {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .final-fluid .content-text {
+    margin: 0 auto;
+    padding-left: 100px;
+  }
+
+  .final-fluid .img-box.right {
+    padding-left: 120px;
+  }
+
+  .init-fluid .img-box.left {
+    padding-right: 120px;
+    margin-left: -100px;
+  }
+
+  .init-fluid .content-text {
+    margin: 0 auto;
+    padding-right: 100px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .final-fluid::before {
+    width: calc(558px + 50%);
+    background: #fcf9f6;
+  }
+
+  .final-fluid {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
+@media (max-width: 992px) {
+  .final-fluid .img-box.right {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+  }
+}
+
+.img-full img {
+  width: 100%;
+}
+
+.img-full.img-full-left {
+  margin-left: -50%;
+}
+
+/* Card Enlace */
+
+.card-enlace {
+  border: 1px solid #e3d8d0;
+  padding: 20px;
+  border-radius: 4px;
+  background: white;
+  color: #333333;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.card-enlace .icono {
+  max-height: 40px;
+  margin-right: 15px;
+  margin-left: 10px;
+}
+
+.card-enlace .flecha {
+  position: absolute;
+  right: 20px;
+
+  font-size: 24px;
+}
+
+@media (max-width: 768px) {
+  .card-enlace {
+    padding-right: 45px;
+  }
+
+  .card-enlace .flecha {
+    transform: rotate(90deg);
+  }
+}
+
+.col-img--fixmobile {
+  margin-bottom: -15%;
+}
+
+.init-fluid .img-responsive {
+  border-radius: 2px !important;
+}
+
+/* Card Enlace */
+@media (max-width: 767px) {
+  #healthy-enlaces .owl-links-carousel .owl-nav {
+    margin-top: 15px !important;
+  }
+
+  .col-img--fixmobile {
+    margin-bottom: -40%;
+    margin-top: 30px;
+    z-index: 3;
+  }
+
+  .col-img--fixmobile--right {
+    float: right;
+    margin-right: -15px;
+  }
+
+  .col-img--fixmobile--left {
+    float: left;
+    margin-left: -15px;
+  }
+}
+
+.panel-group .panel-modulo-acordeon:last-child {
+  box-shadow: none !important;
+}
+
+#menu-flotante-1.section-scroll.save-space-menu {
+  margin-top: 80px;
+}

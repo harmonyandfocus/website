@@ -1,0 +1,255 @@
+#footer-form label#LblEmail {
+  display: none;
+}
+
+#footer-form .mktoFormRow {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+#footer-form .mktoForm .mktoError {
+  margin-top: 5px;
+  position: static !important;
+  right: 0 !important;
+  bottom: 0 !important;
+}
+
+#footer-form .mktoForm .mktoError .mktoErrorArrowWrap {
+  display: none !important;
+}
+
+#footer-form .mktoForm .mktoError .mktoErrorMsg {
+  color: red !important;
+  padding-bottom: 10px !important;
+  display: block !important;
+  background-image: none !important;
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+#footer-form .mktoHasWidth {
+  width: 100% !important;
+}
+
+#footer-form .mktoForm input[type="text"],
+#footer-form .mktoForm input[type="url"],
+#footer-form .mktoForm input[type="email"],
+#footer-form .mktoForm input[type="tel"],
+#footer-form .mktoForm input[type="number"],
+#footer-form .mktoForm input[type="date"],
+#footer-form .mktoForm textarea.mktoField,
+#footer-form .mktoForm select.mktoField {
+  width: 100% !important;
+}
+
+#footer-form .mktoFormCol,
+#footer-form .mktoFieldWrap {
+  width: 100% !important;
+}
+
+#footer-form .mktoForm input[type="text"],
+#footer-form .mktoForm input[type="url"],
+#footer-form .mktoForm input[type="email"],
+#footer-form .mktoForm input[type="tel"],
+#footer-form .mktoForm input[type="number"],
+#footer-form .mktoForm input[type="date"],
+#footer-form .mktoForm textarea.mktoField,
+#footer-form .mktoForm select.mktoField {
+  border-radius: 4px 4px 4px 4px !important;
+  width: 100% !important;
+  display: block !important;
+  background-color: transparent !important;
+  border-radius: 4px !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  color: #ccc !important;
+  padding: 16px 20px !important;
+  border: 1px solid #999 !important;
+  font-family: "HK Grotesk", Helvetica, Arial, Verdana, sans-serif !important;
+  font-size: 14px !important;
+}
+
+#footer-form input:focus,
+#footer-form textarea:focus,
+#footer-form select:focus {
+  border: 1px solid #fff !important;
+  outline-color: transparent !important;
+  outline-style: none !important;
+  outline: transparent !important;
+}
+
+#footer-form .btn:focus,
+#footer-form .btn:active:focus,
+#footer-form .btn.active:focus {
+  outline-color: transparent !important;
+  outline-style: none !important;
+}
+
+#footer-form .mktoButtonWrap {
+  margin-left: 0 !important;
+}
+
+#footer-form .mktoButtonRow {
+  width: 100% !important;
+  text-align: center !important;
+}
+
+#footer-form .mktoForm .mktoButtonWrap.mktoAnimGlow .mktoButton {
+  cursor: pointer !important;
+  text-align: center !important;
+  display: inline-block !important;
+  height: auto !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  font-family: "Hk Grotesk", sans-serif !important;
+  text-decoration: none !important;
+  background-color: transparent !important;
+  line-height: 20px !important;
+  padding: 9px 30px !important;
+  border-radius: 100px !important;
+  color: #333 !important;
+  border: 1px solid rgba(51, 51, 51, 0.3) !important;
+  -webkit-transition: 200ms !important;
+  transition: 200ms !important;
+  animation-iteration-count: none !important;
+  -webkit-animation-name: none !important;
+  animation-name: none;
+}
+
+#footer-form .mktoForm .mktoButtonWrap.mktoAnimGlow .mktoButton:hover {
+  border: 1px solid #000000 !important;
+}
+
+@media (max-width: 430px) {
+  #footer-form .mktoForm.mktoLayoutAbove .mktoRadioList,
+  #footer-form .mktoForm.mktoLayoutAbove .mktoCheckboxList {
+    width: auto !important;
+
+    clear: none !important;
+  }
+}
+
+@media (min-width: 431px) {
+  #footer-form .mktoForm.mktoLayoutAbove .mktoRadioList,
+  #footer-form .mktoForm.mktoLayoutAbove .mktoCheckboxList {
+    width: auto !important;
+    float: right !important;
+    clear: none !important;
+  }
+}
+
+#footer-form .mktoForm .mktoRequiredField .mktoAsterix {
+  display: none !important;
+}
+
+#footer-form label.mktoLabel.mktoHasWidth[for="sHAPrivacyPolicy"] {
+  width: 90% !important;
+  float: right !important;
+  margin-bottom: 5px !important;
+  font-weight: 400 !important;
+}
+
+#footer-form label.mktoLabel.mktoHasWidth[for="sHANewsletter"] {
+  width: 90% !important;
+  float: right !important;
+  margin-bottom: 15px !important;
+  text-align: left;
+}
+
+#footer-form .mktoForm .mktoOffset {
+  height: 0px !important;
+}
+
+#footer-form .mktoForm.mktoLayoutAbove textarea.mktoField {
+  min-height: 80px;
+}
+
+#footer-ayudas {
+  background: #555555;
+}
+
+#footer-ayudas .separador {
+  width: 100%;
+
+  border: 1px solid #dee0e1;
+  opacity: 0.2;
+}
+
+#footer-ayudas .texto {
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  color: #999999;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#footer-ayudas .zona-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  #footer-ayudas .zona-logos .logo img {
+    max-width: 100px;
+    margin: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  #footer-ayudas .zona-logos .logo {
+    margin: 25px;
+  }
+}
+
+#footer-ayudas2 {
+  background: #555555;
+  color: #999999;
+
+}
+
+#footer-ayudas2 .separador {
+  width: 100%;
+
+  border: 1px solid #dee0e1;
+  opacity: 0.2;
+}
+
+#footer-ayudas2 .texto {
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  color: #999999;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#footer-ayudas2 .zona-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  #footer-ayudas2 .zona-logos .logo img {
+    max-width: 70px;
+    margin: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  #footer-ayudas2 .zona-logos .logo img {
+   
+    max-height: 45px;margin-left:25px; margin-right: 25px;
+  }
+}
